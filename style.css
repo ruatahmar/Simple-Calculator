@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.cover{
+    background-color:#D4A6CB;
+    padding:20px;
+    border:solid;
+    border-width: 5px;
+    border-radius: 25px;
+}
+.screen{
+    background-color: white;
+    height: 70px;
+    width :440px;
+    border:solid;
+    border-radius: 15px;
+    color:black;
+    font-size: 36px;
+    align-items: center;
+    display: flex;
+    padding-right:10px;
+    justify-content: right;
+}
+.r1{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    
+}
+.d2{
+    border-radius: 10px;
+    background-color:#A6D4AF ;
+    margin:5px;
+    height:100px;
+    width:100px;
+    border:solid;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center ;
+    color:white;
+}
