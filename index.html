@@ -25,7 +25,7 @@
     <div class="r1">
         <button class="d2 b7" onclick="enter(7)">7</button>
         <button class="d2 b8" onclick="enter(8)">8</button>
-        <button class="d2 b9" onclick="enter(8)">9</button>
+        <button class="d2 b9" onclick="enter(9)">9</button>
         <button class="d2 bplus" onclick="enter('+')">+</button>
     </div>
     <div class="r1">    
@@ -44,6 +44,7 @@
         }
         function solve(){
             let res=eval(ar)
+            ar=res
             n.innerText=res
         }
     </script>
